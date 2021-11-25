@@ -1,0 +1,33 @@
+{
+  "name": "crypto-coin-easy-api",
+  "version": "1.0.0",
+  "description": "Easy API to provide up-to-date data on crypto coins.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcompress": "node sources/app.js"
+  },
+  "repository": "git+https://github.com/acmlira/crypto-coin-easy-api.git",
+  "keywords": [
+    "Crypto",
+    "Coin",
+    "API"
+  ],
+  "author": "Allan C. M. Lira (@acmlira)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acmlira/crypto-coin-easy-api/issues"
+  },
+  "homepage": "https://github.com/acmlira/crypto-coin-easy-api#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "swagger-autogen": "^2.13.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
